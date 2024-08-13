@@ -52,7 +52,6 @@ int main() {
       imprime_Fila(fluxo2);
       printf("\n\tFluxo 3\n");
       imprime_Fila(fluxo3);
-
       break;
     case 0:
       printf("Saindo...\n");

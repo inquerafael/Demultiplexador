@@ -107,7 +107,7 @@ void imprime_Fila(Fila *fi) {
 
 void separa_Fila(Fila *fi, Fila *fluxo1, Fila *fluxo2, Fila *fluxo3) {
   Cel *aux = fi->inicio;
-  while (aux != NULL) {
+  while (aux != NULL) { // condicional para separar os canais
     if (aux->dados.indentificador == 1) {
       insere_Fila(fluxo1, aux->dados);
     } else if (aux->dados.indentificador == 2) {
